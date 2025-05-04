@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmileNest</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(#fff0f6, #e0f7fa);
+      color: #333;
+    }
+    header {
+      background-color: #ffe0ec;
+      padding: 30px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8em;
+      margin: 0;
+      color: #ff4081;
+    }
+    header p {
+      font-size: 1.2em;
+      margin: 10px 0 0;
+    }
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    .quote, .advice, .playlist {
+      background: white;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .quote h2, .advice h2, .playlist h2 {
+      margin-top: 0;
+      color: #ff4081;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to SmileNest</h1>
+    <p>Your daily dose of joy, light, and comfort 🕊️</p>
+  </header>
+  <main>
+    <section class="quote">
+      <h2>Quote of the Day</h2>
+      <p>"Keep your face always toward the sunshine—and shadows will fall behind you." — Walt Whitman</p>
+    </section>
+
+    <section class="advice">
+      <h2>Advice of the Day</h2>
+      <p>It’s okay to pause. Even flowers need rest between blooming. 🌸</p>
+    </section>
+
+    <section class="playlist">
+      <h2>Playlist for a Soft Smile</h2>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX3rxVfibe1L0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 SmileNest. Made with love and light 💖</p>
+  </footer>
+</body>
+</html>
